@@ -1,5 +1,5 @@
 # Carla Crasher
-CarlaCrasher allows you to simulate a self-driving car in the [Carla Simulator](carla.org). However, the car is programmed to drive poorly. This project is intended to enable the cyber investigation of self-driving cars by providing 
+CarlaCrasher allows you to simulate a self-driving car in the [Carla Simulator](https://www.carla.org). However, the car is programmed to drive poorly. This project is intended to enable the cyber investigation of self-driving cars by providing 
 
 # Install
 Clone the repository and move it into the PythonAPI directory.
