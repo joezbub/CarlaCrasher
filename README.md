@@ -2,7 +2,8 @@
 CarlaCrasher allows you to simulate and follow a self-driving car in [CARLA](https://www.carla.org). However, the car in crasher.py is programmed to have unpredictable movements and even break a large proportion of traffic laws to induce as many collisions as possible (as shown below). 
 
 <p align="center">
-<img src="images/crasher_demo.gif"/></p>
+    <img src="images/crasher_demo.gif">
+</p>
 ![CarlaCrasherDemo1](images/ccdemo1.png)
 
 An analysis of the memory after these collisions can yield valuable information about their causes, including data like steering wheel movements and acceleration and speed values. CarlaCrasher is a great tool for the cyber investigation and memory analysis of self-driving cars in the CARLA simulator. In the future, I aim to creat Volatility plugins to automate the extraction of this valuable data from memory. There is also a regular self-driving car in safe_drive.py in case you want to analyze normal behavior.
