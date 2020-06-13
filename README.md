@@ -15,3 +15,5 @@ After launching the CARLA simulator, move into the CarlaCrasher directory.
 In order to spawn cars, run `setup_cars.py`. For varying weather, run `python weather.py`. 
 ## Start Simulation
 For the vehicle with unpredictable movements, run `python crasher.py`. If you want a regular self-driving vehicle, run `python safe_drive.py`. For both, you should see a pygame window pop up with a self-driving car.
+
+![CarlaCrasherDemo1](images/crasher_demo.gif)
