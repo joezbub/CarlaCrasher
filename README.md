@@ -10,4 +10,4 @@ An analysis of the memory after these collisions can yield valuable information 
 Clone the repository into CARLA's PythonAPI directory, so CarlaCrasher can access the CARLA module `.egg` file.
 
 # Run
-In the CarlaCrasher directory, run `python crasher.py`. You should see a pygame window pop up with a self-driving car driving through the simulator.
+In the CarlaCrasher directory, run `python crasher.py`. You should see a pygame window pop up with a self-driving car driving in the simulator.
