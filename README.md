@@ -5,9 +5,13 @@ CarlaCrasher allows you to simulate and follow a self-driving car in [CARLA](htt
     <img src="images/crasher_demo.gif">
 </p>
 
-![CarlaCrasherDemo1](images/ccdemo1.png)
+An analysis of the memory after these collisions can yield valuable information about their causes, including data like steering wheel movements and acceleration and speed values. CarlaCrasher is a great tool for the cyber investigation and memory analysis of self-driving cars in the CARLA simulator. There is also a regular self-driving car in safe_drive.py in case you want to analyze normal behavior. 
 
-An analysis of the memory after these collisions can yield valuable information about their causes, including data like steering wheel movements and acceleration and speed values. CarlaCrasher is a great tool for the cyber investigation and memory analysis of self-driving cars in the CARLA simulator. In the future, I aim to creat Volatility plugins to automate the extraction of this valuable data from memory. There is also a regular self-driving car in safe_drive.py in case you want to analyze normal behavior.
+<p align="center">
+    <img src="images/safedrive.gif">
+</p>
+
+In the future, I aim to creat Volatility plugins to automate the extraction of this valuable data from memory. 
 
 # Install
 Clone the repository into CARLA's PythonAPI directory, so CarlaCrasher can access the CARLA module `.egg` file.
@@ -19,3 +23,4 @@ In order to spawn cars, run `setup_cars.py`. For varying weather, run `python we
 ## Start Simulation
 For the vehicle with unpredictable movements, run `python crasher.py`. If you want a regular self-driving vehicle, run `python safe_drive.py`. For both, you should see a pygame window pop up with a self-driving car.
 
+![CarlaCrasherDemo1](images/ccdemo1.png)
