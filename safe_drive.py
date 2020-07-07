@@ -789,7 +789,7 @@ def game_loop(args):
     pygame.init()
     pygame.font.init()
     world = None
-
+    print (os.getpid())
     try:
         client = carla.Client(args.host, args.port)
         client.set_timeout(2.0)
@@ -849,7 +849,6 @@ def main():
     argparser.add_argument(
         '-a', '--autopilot',
         action='store_true',
-        #default='True',
         help='enable autopilot')
     argparser.add_argument(
         '--res',

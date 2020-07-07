@@ -668,7 +668,7 @@ class CameraManager(object):
 
 def game_loop(args):
     """ Main loop for agent"""
-
+    print (os.getpid())
     pygame.init()
     pygame.font.init()
     world = None
@@ -834,7 +834,7 @@ def main():
 
     logging.info('listening to server %s:%s', args.host, args.port)
     print(__doc__)
-
+    
     try:
         game_loop(args)
 
